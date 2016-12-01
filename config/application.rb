@@ -20,7 +20,7 @@ module RailsDevise
       g.fixture_replacement :factory_girl, dir: "spec/factories"
     end
 
-    config.middleware.insert_before "Warden::Manager", "Castle"
+    # config.middleware.insert_before "Warden::Manager", "Castle"
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
